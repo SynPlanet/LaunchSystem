@@ -1,0 +1,69 @@
+﻿Settings_Message0_P1	Error reading configuration file. {0}
+Settings_Message1_P1	There is not find the settings in the file. {0}
+Settings_Message2_P1	Guid not specified for COM object. (Строка {0})
+Settings_Message3_P1	Path not specified for unmanaged build. (Строка {0})
+Settings_Message4_P1	Managed build path not specified. (Строка {0})
+Settings_Message5_P1	Managed assembly class type not specified. (Строка {0})
+Settings_Message6_P1	No entry point specified. (Строка {0})
+Settings_Message7_P1	Entry point object name not specified. (Строка {0})
+
+MainWindow_Message0	Startup error.
+MainWindow_Message1	Shutdown error.
+MainWindow_Message2	Failure!!!
+MainWindow_Message3	The work is completed!!!
+MainWindow_Message4_P1	The launch is carried out on the platform {0}.
+
+AvailableTypeCollection_Message0	Start loading Managed and COM modules.
+AvailableTypeCollection_Message1	Loading modules completed.
+AvailableTypeCollection_Message2_P1	Assembly '{0}' does not have an IConnected interface or it failed to load.
+AvailableTypeCollection_Message3	Settings did not load.
+AvailableTypeCollection_Message4_P1	Loaded module '{0}'.
+AvailableTypeCollection_Message5_P2	Module '{0}' does not have type {1}.
+
+CreatorDynamicLibrary_Message0_P1	Loading unmanaged assembly '{0}'.
+CreatorDynamicLibrary_Message1_P1	Unmanaged assembly '{0}' loaded via LoadLibrary.
+
+InstanceCollection_Message0_P2	Instance unloaded (Name = {0}, InstanceName = {1}).
+
+InstanceManager_Message0_P3	An instance of the IInstanceManager interface was created for the module {0} (Name = {1}, InstanceName = {2})
+InstanceManager_Message1	Does not have access to other copies!!!
+InstanceManager_Message2	Has access to:
+InstanceManager_Message3_P3	\t Name = {0}, InterfaceName = {1}, CanCreate= {2}
+InstanceManager_Message4	Start creating objects from startup
+InstanceManager_Message5	Creation of objects from startup completed
+InstanceManager_Message6_P3	Module instance '{0}' created (Name = {1}, InstanceName = {2})
+InstanceManager_Message7	Can't get interface object IConnected"
+InstanceManager_Message8_P3	Error getting interfaces {0} (Name = {1}, InstanceName = {2})
+InstanceManager_Message9_P3	Error initializing module {0} (Name = {1}, InstanceName = {2})
+InstanceManager_Message10	Starting to shut down Launcher
+InstanceManager_Message11_P4	Module '{0}' requests an instance (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message12_P4	Module '{0}' is not allowed to create an instance (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message13_P4	No instance created for module '{0}' (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message14_P4	Module '{0}' received an instance (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message15_P7	Module '{0}' (Name = {1}, InstanceName = {2}){3}\t has unloaded an instance (InterfaceName = {4}, Name = {5}, InstanceName = {6}).
+InstanceManager_Message16	There is no wrapper
+InstanceManager_Message17_P7	Module '{0}' (Name = {1}, InstanceName = {2}){3}\t cannot unload an instance. (InterfaceName = {4}, Name = {5}, InstanceName = {6}).
+InstanceManager_Message18_P7	Module '{0}' (Name = {1}, InstanceName = {2}){3}\t cannot unload an instance. (InterfaceName = {4}, Name = {5}, InstanceName = {6}), because it does not exist.
+InstanceManager_Message19	Error getting number of required interfaces. // int IConnected.CountRequestInterfaces
+InstanceManager_Message20	Error getting required interfaces. // void IConnected.RequestInterfaces(IntPtr ptr)
+InstanceManager_Message21_P3	Module '{0}' (Name = {1}, InstanceName = {2}) unloads itself.
+InstanceManager_Message22	Instance does not exist!!!
+InstanceManager_Message23_P3	Module '{0}' (Name = {1}, InstanceName = {2})\t cannot unload itself.
+
+Startup_Message0	Error setting environmental variables
+Startup_Message1	Can't create entry point
+
+WrapperBuilder_Message0_P1	Start creating a wrapper for the interface {0}
+WrapperBuilder_Message1_P1	Wrapper for interface {0} was created
+WrapperBuilder_Message2		Cover creation failed:
+
+LoaderMessage0_P1	You do not have a license to use the assembly '{0}'
+LoaderMessage0_P2	Can't load assembly '{0}'
+
+InterfaceCollection_Message0_P1 \t'{0}'
+InterfaceCollection_Message1_P2 Managed module '{0}' has {1} interfaces:
+InterfaceCollection_Message2_P1 Managed module '{0}' has no interfaces.
+InterfaceCollection_Message3_P2 Unmanaged module '{0}' has {1} interfaces:
+InterfaceCollection_Message4_P1 Unmanaged module '{0}' has no interfaces.
+InterfaceCollection_Message5_P2 COM object '{0}' has {1} interfaces:
+InterfaceCollection_Message6_P1 COM object '{0}' has no interfaces.

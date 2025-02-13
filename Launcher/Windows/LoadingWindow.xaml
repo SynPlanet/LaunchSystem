@@ -1,0 +1,12 @@
+﻿<Window x:Class="Launcher.Windows.LoadingWindow"
+        x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LoadingWindow"  WindowStartupLocation="CenterScreen" Topmost="True" ResizeMode="NoResize" ShowInTaskbar="False" WindowStyle="None" SizeToContent="WidthAndHeight" AllowsTransparency="True">
+    <Grid>
+        <Image Source="../Icon/Logo.png" Width="600" Height="398"/>
+    </Grid>
+    <Window.Background>
+        <SolidColorBrush />
+    </Window.Background>
+</Window>

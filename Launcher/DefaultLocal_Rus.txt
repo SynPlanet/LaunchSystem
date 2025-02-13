@@ -1,0 +1,69 @@
+﻿Settings_Message0_P1	Ошибка чтения конфигурационного файла {0}
+Settings_Message1_P1	Не могу найти настройки в файле {0}
+Settings_Message2_P1	Не указан Guid для COM объекта. (Строка {0})
+Settings_Message3_P1	Не указан путь для неуправляемой сборки. (Строка {0})
+Settings_Message4_P1	Не указан путь для управляемой сборки. (Строка {0})
+Settings_Message5_P1	Не указан тип класса для управляемой сборки. (Строка {0})
+Settings_Message6_P1	Не указана точка входа. (Строка {0})
+Settings_Message7_P1	Не указано имя объекта точки входа. (Строка {0})
+
+MainWindow_Message0	Ошибка запуска
+MainWindow_Message1	Ошибка завершения работы.
+MainWindow_Message2	Завершился неудачно!!!
+MainWindow_Message3	Работа завершена!!!
+MainWindow_Message4_P1	Запуск производится на платформе {0}
+
+AvailableTypeCollection_Message0	Начало загрузки модулей Managed и COM
+AvailableTypeCollection_Message1	Загрузка модулей завершена
+AvailableTypeCollection_Message2_P1	Сборка '{0}' не имеет интерфейс IConnected или она не загрузилассь
+AvailableTypeCollection_Message3	Настройки не загрузились
+AvailableTypeCollection_Message4_P1	Загрузился модуль '{0}'
+AvailableTypeCollection_Message5_P2	В модуле '{0}' нет типа {1}
+
+CreatorDynamicLibrary_Message0_P1	Загрузка неуправляемой сборки '{0}'
+CreatorDynamicLibrary_Message1_P1	Неуправляеммая сборка '{0}' загружается через LoadLibrary
+
+InstanceCollection_Message0_P2	Экземпляр выгрузился (Name = {0}, InstanceName = {1}).
+
+InstanceManager_Message0_P3	Создан экземпляр интерфейса IInstanceManager для модуля {0} (Name = {1}, InstanceName = {2})
+InstanceManager_Message1	Не имеет доступ к другим экземплярам!!!
+InstanceManager_Message2	Имеет доступ к:
+InstanceManager_Message3_P3	\t Name = {0}, InterfaceName = {1}, CanCreate= {2}
+InstanceManager_Message4	Начало создание объектов из startup
+InstanceManager_Message5	Создание объектов из startup завершено
+InstanceManager_Message6_P3	Экземпляр Модуля '{0}' создан (Name = {1}, InstanceName = {2})
+InstanceManager_Message7	Не могу получить объект интерфейса IConnected"
+InstanceManager_Message8_P3	Ошибка получения интерфейсов {0} (Name = {1}, InstanceName = {2})
+InstanceManager_Message9_P3	Ошибка инициализации модуля {0} (Name = {1}, InstanceName = {2})
+InstanceManager_Message10	Начало завершения работы Launcher
+InstanceManager_Message11_P4	Модуль '{0}' запрашивает экземпляр (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message12_P4	Модулю '{0}' создавать экземпляр запрещено (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message13_P4	Для модуля '{0}' экземпляр не создан (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message14_P4	Модуль '{0}' получил экземпляр (InterfaceName = {1}, Name = {2}, InstanceName = {3})
+InstanceManager_Message15_P7	Модуль '{0}' (Name = {1}, InstanceName = {2}){3}\tвыгрузил экземпляр (InterfaceName = {4}, Name = {5}, InstanceName = {6}).
+InstanceManager_Message16	Обертки не существует
+InstanceManager_Message17_P7	Модуль '{0}' (Name = {1}, InstanceName = {2}){3}\tне может выгрузить экземпляр (InterfaceName = {4}, Name = {5}, InstanceName = {6}).
+InstanceManager_Message18_P7	Модуль '{0}' (Name = {1}, InstanceName = {2}){3}\tне может выгрузить эеземпляр (InterfaceName = {4}, Name = {5}, InstanceName = {6}), потому что его не существует.
+InstanceManager_Message19	Ошибка в получении кол-ва требуемых интерфейсов. // int IConnected.CountRequestInterfaces
+InstanceManager_Message20	Ошибка в получении требуемых интерфейсов. // void IConnected.RequestInterfaces(IntPtr ptr)
+InstanceManager_Message21_P3	Модуль '{0}' (Name = {1}, InstanceName = {2}) выгрузил себя.
+InstanceManager_Message22	Экземпляра не существует!!!
+InstanceManager_Message23_P3	Модуль '{0}' (Name = {1}, InstanceName = {2})\tне может выгрузить себя.
+
+Startup_Message0	Ошибка установки переменных сред
+Startup_Message1	Не могу создать точку входа
+
+WrapperBuilder_Message0_P1	Начало создания обертки для интерфейса {0}
+WrapperBuilder_Message1_P1	Обертка для интерфейса {0} создалась
+WrapperBuilder_Message2		Создание обложки завершилось неудачей:
+
+LoaderMessage0_P1	У вас нет лицензии на использование сборки '{0}'
+LoaderMessage0_P2	Не могу загрузить сборку '{0}'
+
+InterfaceCollection_Message0_P1 \t'{0}'
+InterfaceCollection_Message1_P2 Управляеммый модуль '{0}' имеет {1} интерфейсов:
+InterfaceCollection_Message2_P1 Управляеммый модуль '{0}' не имеет интерфейсов.
+InterfaceCollection_Message3_P2 Неуправляеммый модуль '{0}' имеет {1} интерфейсов:
+InterfaceCollection_Message4_P1 Неуправляеммый модуль '{0}' не имеет интерфейсов.
+InterfaceCollection_Message5_P2 Com объект '{0}' имеет {1} интерфейсов:
+InterfaceCollection_Message6_P1 Com объект '{0}' не имеет интерфейсов.

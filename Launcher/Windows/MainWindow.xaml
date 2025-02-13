@@ -1,0 +1,19 @@
+﻿<Window x:Class="Launcher.Windows.MainWindow"
+        x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tray="http://www.hardcodet.net/taskbar"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ContextMenu x:Key="TrayMenu" IsVisibleChanged="ContextMenu_IsVisibleChanged">
+            <MenuItem x:Name="realTime"  Header="Real Time" Click="Open" IsEnabled="False"/>
+            <Separator />
+            <MenuItem Header="Выйти" Click="Exit"/>
+
+        </ContextMenu>
+    </Window.Resources>
+    <Grid>
+        <tray:TaskbarIcon x:Name="tray" IconSource="../Icon/icon.ico"  ToolTipText="Система запуска" MenuActivation="RightClick" ContextMenu="{StaticResource TrayMenu}" TrayMouseDoubleClick="Open">
+        </tray:TaskbarIcon>
+    </Grid>
+</Window>
