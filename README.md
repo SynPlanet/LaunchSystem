@@ -1,0 +1,1 @@
+Universal Launch System Technology allows developers to create high-load systems in a short time. The launch system is built taking into account cross-platform capability with full support for working with shared memory.
